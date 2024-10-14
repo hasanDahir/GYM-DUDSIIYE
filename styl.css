@@ -278,7 +278,7 @@ nav ul li a:hover {
 /* Final Call to Action Section with Background Image */
 /* Final Call to Action Section with Background Image */
 .final-cta-section {
-  background-image: url('images/training-image-01.jpg');
+  background-image: url('image/training-image-01.jpg');
   background-size: cover;         /* Ensures the image covers the entire section */
   background-position: center;    /* Centers the background image */
   background-repeat: no-repeat;   /* Prevents the image from repeating */
