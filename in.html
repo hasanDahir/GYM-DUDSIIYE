@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+  
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Webpage with Mobile Navigation</title>
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      THE<span>  GYM</span>
+    </div>
+    <!-- Hamburger Menu Icon -->
+   <!-- Hamburger Icon -->
+<!-- Hamburger Icon -->
+<!-- Hamburger Icon (for mobile view) -->
+<div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li class="sign-up-btn"><a href="#">Sign Up</a></li>
+    </ul>
+  </nav>
+  
+  
+  
+
+    <!-- Mobile Navigation Menu -->
+    
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <!-- Background Video -->
+    <video autoplay muted loop class="background-video">
+      <source src="images/3191884-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-content">
+      <h1>WORK HARDER, GET STRONGER!</h1>
+      <h2>EASY WHITH OUR  <span>GYM</span></h2>
+      <a href="#services" class="cta-btn">Become a Member</a>
+    </div>
+  </section>
+
+  <!-- New Motivation Section with the Uploaded Image -->
+ 
+
+  <!-- Programs Section -->
+  <section class="programs" id="services">
+    <section class="title-section">
+        <div class="title-content">
+          <h2 class="section-title">Choose <span>Program</span></h2>
+          <div class="section-decor">
+            <img src="images/line-dec.png" alt="Decorative Icon">
+          </div>
+          <p class="section-description">
+            Explore our various programs to achieve your fitness goals
+          </p>
+        </div>
+      </section>
+    
+    <div class="program-grid">
+      <div class="program-card">
+        <div class="program-icon">💪</div>
+        <h3>Basic Fitness</h3>
+        <p>Get started with basic exercises to build strength and flexibility.</p>
+        <a href="#" class="discover-btn">Discover More</a>
+      </div>
+      
+      <div class="program-card">
+        <div class="program-icon">🏋️‍♂️</div>
+        <h3>Advanced Muscle Course</h3>
+        <p>Level up your muscle-building journey with advanced techniques.</p>
+        <a href="#" class="discover-btn">Discover More</a>
+      </div>
+      
+      
+      <div class="program-card">
+        <div class="program-icon">🧘‍♀️</div>
+        <h3>Yoga Training</h3>
+        <p>Relax and build flexibility with our expert yoga trainers.</p>
+        <a href="#" class="discover-btn">Discover More</a>
+      </div>
+      
+    </div>
+    
+  </section>
+  <section class="final-cta-section" id="final-cta">
+    <div class="final-cta-content">
+      <h1>Don't Wait. Start Your Journey Today!</h1>
+      <p>Whether you're just starting out or looking to push your limits, we have the right program for you. Join us and become a part of a community that thrives on progress!</p>
+      <a href="#signup" class="cta-btn">Join Now</a>
+    </div>
+  </section>
+  
+  <section class="title-section">
+    <div class="title-content">
+      <h2 class="section-title">EXPERT <span>TRAINERS</span></h2>
+      <div class="section-decor">
+        <img src="images/line-dec.png" alt="Decorative Icon">
+      </div>
+      <p class="section-description">
+        Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.
+      </p>
+    </div>
+  </section>
+  
+
+  <section class="training-section">
+    
+    <div class="training-list">
+      <ul>
+        <li class="active">
+          <img src="images/tabs-first-icon.png" alt="First Class Icon" class="icon">
+          <a href="#">First Training Class</a>
+        </li>
+        <li>
+          <img src="images/tabs-first-icon.png" alt="Second Class Icon" class="icon">
+          <a href="#">Second Training Class</a>
+        </li>
+        <li>
+          <img src="images/tabs-first-icon.png" alt="Third Class Icon" class="icon">
+          <a href="#">Third Training Class</a>
+        </li>
+        <li>
+          <img src="images/tabs-first-icon.png" alt="Fourth Class Icon" class="icon">
+          <a href="#">Fourth Training Class</a>
+        </li>
+      </ul>
+      <a href="#" class="view-all-btn">View All Schedules</a>
+    </div>
+
+    <div class="training-detail">
+      <img src="images/training-image-01.jpg" alt="First Training Class" class="training-image">
+      <div class="training-info">
+        <h2>First Training Class</h2>
+        <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula.</p>
+        <a href="#" class="view-schedule-btn">View Schedule</a>
+      </div>
+    </div>
+  </section>
+  <div class="schedule-section">
+    <div class="overlay"></div>
+    <div class="schedule-content">
+        <h1>Classes Schedule</h1>
+        <div class="section-decor">
+            <img src="images/line-dec.png" alt="Decorative Icon">
+          </div>
+        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Classes</th>
+                    <th>Time</th>
+                    <th>Trainer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fitness Class</td>
+                    <td>10:00AM - 11:30AM</td>
+                    <td>William G. Stewart</td>
+                </tr>
+                <tr>
+                    <td>Muscle Training</td>
+                    <td></td>
+                    <td>Paul D. Newman</td>
+                </tr>
+                <tr>
+                    <td>Body Building</td>
+                    <td>2:00PM - 3:30PM</td>
+                    <td>Boyd C. Harris</td>
+                </tr>
+                <tr>
+                    <td>Yoga Training Class</td>
+                    <td></td>
+                    <td>Hector T. Daigle</td>
+                </tr>
+                <tr>
+                    <td>Advanced Training</td>
+                    <td></td>
+                    <td>Bret D. Bowers</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<section class="trainers-section">
+    <h2 class="section-title">Expert <span>Trainers</span></h2>
+    <div class="section-decor"></div>
+        <img src="images/line-dec.png" alt="Decorative Icon">
+      </div>
+    <p class="section-description">
+      Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.
+    </p>
+  
+    <div class="trainers-grid">
+      <div class="trainer-card">
+        <img src="images/pexels-adrian-stancu-369002-5937766.jpg" alt="Bret D. Bowers" class="trainer-photo">
+        <h3 class="trainer-name">Bret D. Bowers</h3>
+        <p class="trainer-title">Strength Trainer</p>
+        <p class="trainer-description">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+        <div class="trainer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+  
+      <div class="trainer-card">
+        <img src="images/pexels-vansh-11439928.jpg" alt="Hector T. Daigl" class="trainer-photo">
+        <h3 class="trainer-name">Hector T. Daigl</h3>
+        <p class="trainer-title">Muscle Trainer</p>
+        <p class="trainer-description">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+        <div class="trainer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+  
+      <div class="trainer-card">
+        <img src="images/pexels-panther-1547248.jpg" alt="Paul D. Newman" class="trainer-photo">
+        <h3 class="trainer-name">Paul D. Newman</h3>
+        <p class="trainer-title">Power Trainer</p>
+        <p class="trainer-description">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+        <div class="trainer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <!-- Google Map Embed -->
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.182639801037!2d-43.450045984972315!3d-23.00607898496052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdc30e6374c33e3%3A0x1713bde67e1c97b3!2sAv.%20L%C3%BAcio%20Costa%2C%20Rio%20de%20Janeiro%20-%20State%20of%20Rio%20de%20Janeiro%2C%20Brazil!5e0!3m2!1sen!2sus!4v1606210121819!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="form-container">
+          <form action="#">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="Your Name*" required>
+              <input type="email" name="email" placeholder="Your Email*" required>
+            </div>
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" rows="4" placeholder="Message"></textarea>
+            <button type="submit" class="send-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+      <p>Copyright © 2024 Hassan Dahir from Dugsiiye</p>
+    </div>
+  </footer>
+  
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
